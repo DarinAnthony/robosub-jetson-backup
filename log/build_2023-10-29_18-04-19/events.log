@@ -1,0 +1,498 @@
+[0.000000] (-) TimerEvent: {}
+[0.001168] (image_processing) JobQueued: {'identifier': 'image_processing', 'dependencies': OrderedDict()}
+[0.002487] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.003108] (key_joy) JobQueued: {'identifier': 'key_joy', 'dependencies': OrderedDict()}
+[0.004038] (launch_all) JobQueued: {'identifier': 'launch_all', 'dependencies': OrderedDict()}
+[0.004322] (main_head) JobQueued: {'identifier': 'main_head', 'dependencies': OrderedDict()}
+[0.004450] (pixhawk_interface) JobQueued: {'identifier': 'pixhawk_interface', 'dependencies': OrderedDict()}
+[0.004601] (yadd) JobQueued: {'identifier': 'yadd', 'dependencies': OrderedDict()}
+[0.004766] (image_processing) JobStarted: {'identifier': 'image_processing'}
+[0.098454] (-) TimerEvent: {}
+[0.201311] (-) TimerEvent: {}
+[0.207725] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.301064] (-) TimerEvent: {}
+[0.360767] (key_joy) JobStarted: {'identifier': 'key_joy'}
+[0.401297] (-) TimerEvent: {}
+[0.502174] (-) TimerEvent: {}
+[0.537211] (launch_all) JobStarted: {'identifier': 'launch_all'}
+[0.602418] (-) TimerEvent: {}
+[0.703776] (-) TimerEvent: {}
+[0.805164] (-) TimerEvent: {}
+[0.907066] (-) TimerEvent: {}
+[1.007919] (-) TimerEvent: {}
+[1.108669] (-) TimerEvent: {}
+[1.209552] (-) TimerEvent: {}
+[1.310373] (-) TimerEvent: {}
+[1.411272] (-) TimerEvent: {}
+[1.512206] (-) TimerEvent: {}
+[1.612933] (-) TimerEvent: {}
+[1.713834] (-) TimerEvent: {}
+[1.819967] (-) TimerEvent: {}
+[1.885223] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[1.920140] (-) TimerEvent: {}
+[2.002622] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[2.006394] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robosub/nuros_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/robosub/nuros_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robosub'), ('SSH_CLIENT', '192.168.2.6 36516 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robosub'), ('OLDPWD', '/home/robosub'), ('SSH_TTY', '/dev/pts/0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'robosub'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('PATH', '/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/robosub/nuros_ws/build/interfaces'), ('SSH_CONNECTION', '192.168.2.6 36516 192.168.2.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[2.022854] (-) TimerEvent: {}
+[2.126188] (-) TimerEvent: {}
+[2.228266] (-) TimerEvent: {}
+[2.329164] (-) TimerEvent: {}
+[2.430113] (-) TimerEvent: {}
+[2.531055] (-) TimerEvent: {}
+[2.632036] (-) TimerEvent: {}
+[2.733070] (-) TimerEvent: {}
+[2.834685] (-) TimerEvent: {}
+[2.936322] (-) TimerEvent: {}
+[3.039561] (-) TimerEvent: {}
+[3.142441] (-) TimerEvent: {}
+[3.243932] (-) TimerEvent: {}
+[3.351788] (-) TimerEvent: {}
+[3.453191] (-) TimerEvent: {}
+[3.554749] (-) TimerEvent: {}
+[3.655757] (-) TimerEvent: {}
+[3.756739] (-) TimerEvent: {}
+[3.857694] (-) TimerEvent: {}
+[3.959703] (-) TimerEvent: {}
+[4.060737] (-) TimerEvent: {}
+[4.162604] (-) TimerEvent: {}
+[4.247869] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__cpp\n'}
+[4.249676] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[4.250712] (interfaces) StdoutLine: {'line': b'[ 34%] Built target interfaces__rosidl_typesupport_c\n'}
+[4.252449] (interfaces) StdoutLine: {'line': b'[ 34%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[4.255645] (interfaces) StdoutLine: {'line': b'[ 45%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.257382] (interfaces) StdoutLine: {'line': b'[ 56%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.257988] (interfaces) StdoutLine: {'line': b'[ 67%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[4.258320] (interfaces) StdoutLine: {'line': b'[ 78%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.262518] (-) TimerEvent: {}
+[4.363748] (-) TimerEvent: {}
+[4.460111] (interfaces) StdoutLine: {'line': b'[ 78%] Built target interfaces\n'}
+[4.463926] (-) TimerEvent: {}
+[4.565665] (-) TimerEvent: {}
+[4.667294] (-) TimerEvent: {}
+[4.769901] (-) TimerEvent: {}
+[4.825021] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__py\n'}
+[4.870129] (-) TimerEvent: {}
+[4.971504] (-) TimerEvent: {}
+[5.073116] (-) TimerEvent: {}
+[5.174611] (-) TimerEvent: {}
+[5.275554] (-) TimerEvent: {}
+[5.376539] (-) TimerEvent: {}
+[5.402369] (interfaces) StdoutLine: {'line': b'[ 89%] Built target interfaces__python\n'}
+[5.476761] (-) TimerEvent: {}
+[5.578437] (-) TimerEvent: {}
+[5.680153] (-) TimerEvent: {}
+[5.769456] (interfaces) StdoutLine: {'line': b'[ 92%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[5.780355] (-) TimerEvent: {}
+[5.801281] (interfaces) StdoutLine: {'line': b'[ 96%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.803405] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.848171] (interfaces) CommandEnded: {'returncode': 0}
+[5.880984] (-) TimerEvent: {}
+[5.984161] (-) TimerEvent: {}
+[6.085475] (-) TimerEvent: {}
+[6.187945] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[6.188181] (-) TimerEvent: {}
+[6.242752] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robosub/nuros_ws/build/interfaces'], 'cwd': '/home/robosub/nuros_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robosub'), ('SSH_CLIENT', '192.168.2.6 36516 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robosub'), ('OLDPWD', '/home/robosub'), ('SSH_TTY', '/dev/pts/0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'robosub'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('PATH', '/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/robosub/nuros_ws/build/interfaces'), ('SSH_CONNECTION', '192.168.2.6 36516 192.168.2.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[6.279883] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.286294] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[6.287579] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces\n'}
+[6.288232] (-) TimerEvent: {}
+[6.289457] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg\n'}
+[6.290645] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[6.300427] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__type_support.h\n'}
+[6.301598] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__functions.c\n'}
+[6.302462] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__functions.h\n'}
+[6.303312] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__struct.h\n'}
+[6.304279] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/attitude.h\n'}
+[6.305068] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.305866] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv\n'}
+[6.388463] (-) TimerEvent: {}
+[6.441714] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/disarm_pixhawk.h\n'}
+[6.442570] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[6.444219] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__struct.h\n'}
+[6.445527] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__functions.h\n'}
+[6.446691] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__functions.h\n'}
+[6.447157] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__functions.c\n'}
+[6.447553] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__functions.h\n'}
+[6.448054] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__type_support.h\n'}
+[6.448430] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__struct.h\n'}
+[6.448779] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__struct.h\n'}
+[6.449089] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__type_support.h\n'}
+[6.450501] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__functions.c\n'}
+[6.450930] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__type_support.h\n'}
+[6.451307] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__functions.c\n'}
+[6.451785] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/arm_pixhawk.h\n'}
+[6.452194] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/start_routine.h\n'}
+[6.454576] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[6.455130] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[6.461907] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[6.463258] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces\n'}
+[6.463992] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg\n'}
+[6.464847] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[6.465361] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__rosidl_typesupport_fastrtps_c.h\n'}
+[6.465724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.466059] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv\n'}
+[6.466357] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[6.466845] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__rosidl_typesupport_fastrtps_c.h\n'}
+[6.467339] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__rosidl_typesupport_fastrtps_c.h\n'}
+[6.467724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__rosidl_typesupport_fastrtps_c.h\n'}
+[6.470235] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[6.472614] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces\n'}
+[6.473529] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg\n'}
+[6.475506] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[6.476555] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.477401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/dds_fastrtps\n'}
+[6.478358] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.479213] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv\n'}
+[6.480245] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[6.481386] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.482240] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/dds_fastrtps\n'}
+[6.483322] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.484393] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.488616] (-) TimerEvent: {}
+[6.489874] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.492344] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces\n'}
+[6.493397] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg\n'}
+[6.494371] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.495144] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[6.496073] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__rosidl_typesupport_introspection_c.h\n'}
+[6.496881] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__type_support.c\n'}
+[6.498752] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv\n'}
+[6.499581] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[6.500873] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__type_support.c\n'}
+[6.501679] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__rosidl_typesupport_introspection_c.h\n'}
+[6.502478] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__type_support.c\n'}
+[6.503284] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__rosidl_typesupport_introspection_c.h\n'}
+[6.504142] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__type_support.c\n'}
+[6.504959] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__rosidl_typesupport_introspection_c.h\n'}
+[6.588883] (-) TimerEvent: {}
+[6.647884] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[6.649876] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[6.652154] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces\n'}
+[6.653164] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg\n'}
+[6.654061] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/attitude.hpp\n'}
+[6.655868] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[6.658084] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__struct.hpp\n'}
+[6.658720] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__traits.hpp\n'}
+[6.659080] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__builder.hpp\n'}
+[6.659420] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv\n'}
+[6.659815] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/arm_pixhawk.hpp\n'}
+[6.660150] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[6.660463] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__struct.hpp\n'}
+[6.660776] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__builder.hpp\n'}
+[6.661093] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__traits.hpp\n'}
+[6.661445] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__traits.hpp\n'}
+[6.661752] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__struct.hpp\n'}
+[6.662054] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__struct.hpp\n'}
+[6.662356] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__builder.hpp\n'}
+[6.662651] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__traits.hpp\n'}
+[6.662976] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__builder.hpp\n'}
+[6.663287] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/start_routine.hpp\n'}
+[6.663664] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/disarm_pixhawk.hpp\n'}
+[6.664022] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces\n'}
+[6.664340] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg\n'}
+[6.664712] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail\n'}
+[6.665048] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.665360] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/msg/detail/attitude__type_support.cpp\n'}
+[6.665721] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv\n'}
+[6.666034] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail\n'}
+[6.666368] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__type_support.cpp\n'}
+[6.666732] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.667231] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/start_routine__type_support.cpp\n'}
+[6.667558] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__type_support.cpp\n'}
+[6.667954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/disarm_pixhawk__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.668287] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/include/interfaces/srv/detail/arm_pixhawk__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.668599] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[6.675913] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[6.676587] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[6.676970] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[6.682030] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[6.689062] (-) TimerEvent: {}
+[6.789915] (-) TimerEvent: {}
+[6.890851] (-) TimerEvent: {}
+[6.992222] (-) TimerEvent: {}
+[7.046479] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv\n'}
+[7.049743] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_arm_pixhawk.py\n'}
+[7.050327] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_arm_pixhawk_s.c\n'}
+[7.050710] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_start_routine_s.c\n'}
+[7.051060] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_start_routine.py\n'}
+[7.051361] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_disarm_pixhawk.py\n'}
+[7.051820] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/_disarm_pixhawk_s.c\n'}
+[7.052148] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/srv/__init__.py\n'}
+[7.052536] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg\n'}
+[7.054846] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_attitude_s.c\n'}
+[7.055315] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_attitude.py\n'}
+[7.055733] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py\n'}
+[7.060878] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.065312] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.067453] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.073965] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[7.077273] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/ArmPixhawk.idl\n'}
+[7.078440] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/DisarmPixhawk.idl\n'}
+[7.079423] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/StartRoutine.idl\n'}
+[7.081393] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/msg/Attitude.idl\n'}
+[7.082407] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/ArmPixhawk.srv\n'}
+[7.084064] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/ArmPixhawk_Request.msg\n'}
+[7.085034] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/ArmPixhawk_Response.msg\n'}
+[7.085918] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/DisarmPixhawk.srv\n'}
+[7.086805] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/DisarmPixhawk_Request.msg\n'}
+[7.087709] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/DisarmPixhawk_Response.msg\n'}
+[7.088648] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/StartRoutine.srv\n'}
+[7.089536] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/StartRoutine_Request.msg\n'}
+[7.090405] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/srv/StartRoutine_Response.msg\n'}
+[7.091267] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/msg/Attitude.msg\n'}
+[7.092348] (-) TimerEvent: {}
+[7.093476] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[7.096608] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[7.097777] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[7.098807] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[7.099934] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[7.100954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[7.101979] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[7.103075] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[7.104076] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[7.105031] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[7.105963] (interfaces) StdoutLine: {'line': b'-- Installing: /home/robosub/nuros_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[7.109857] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[7.119705] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[7.121143] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.125272] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.126494] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.130533] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.131799] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.135260] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.138979] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.140189] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.143460] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.144167] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.144792] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.145280] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.146158] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.146819] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.147401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.148206] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.148730] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.149131] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[7.149606] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[7.149967] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/robosub/nuros_ws/install/interfaces/share/interfaces/package.xml\n'}
+[7.163359] (interfaces) CommandEnded: {'returncode': 0}
+[7.192559] (-) TimerEvent: {}
+[7.293437] (-) TimerEvent: {}
+[7.394758] (-) TimerEvent: {}
+[7.496973] (-) TimerEvent: {}
+[7.597978] (-) TimerEvent: {}
+[7.699430] (-) TimerEvent: {}
+[7.759806] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[7.763907] (main_head) JobStarted: {'identifier': 'main_head'}
+[7.799557] (-) TimerEvent: {}
+[7.888107] (key_joy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/key_joy', 'build', '--build-base', '/home/robosub/nuros_ws/build/key_joy/build', 'install', '--record', '/home/robosub/nuros_ws/build/key_joy/install.log', '--install-scripts', '$base/lib/key_joy', '--single-version-externally-managed'], 'cwd': '/home/robosub/nuros_ws/src/key_joy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'SSH_CLIENT': '192.168.2.6 36516 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robosub', 'OLDPWD': '/home/robosub', 'SSH_TTY': '/dev/pts/0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'robosub', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/robosub/nuros_ws/build/key_joy', 'SSH_CONNECTION': '192.168.2.6 36516 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/robosub/nuros_ws/build/key_joy/prefix_override:/home/robosub/nuros_ws/install/key_joy/lib/python3.8/site-packages:'}, 'shell': False}
+[7.902492] (-) TimerEvent: {}
+[7.908793] (image_processing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/image_processing', 'build', '--build-base', '/home/robosub/nuros_ws/build/image_processing/build', 'install', '--record', '/home/robosub/nuros_ws/build/image_processing/install.log', '--install-scripts', '$base/lib/image_processing', '--single-version-externally-managed'], 'cwd': '/home/robosub/nuros_ws/src/image_processing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'SSH_CLIENT': '192.168.2.6 36516 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robosub', 'OLDPWD': '/home/robosub', 'SSH_TTY': '/dev/pts/0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'robosub', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/robosub/nuros_ws/build/image_processing', 'SSH_CONNECTION': '192.168.2.6 36516 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/robosub/nuros_ws/build/image_processing/prefix_override:/home/robosub/nuros_ws/install/image_processing/lib/python3.8/site-packages:'}, 'shell': False}
+[7.927258] (launch_all) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/launch_all', 'build', '--build-base', '/home/robosub/nuros_ws/build/launch_all/build', 'install', '--record', '/home/robosub/nuros_ws/build/launch_all/install.log', '--install-scripts', '$base/lib/launch_all', '--single-version-externally-managed'], 'cwd': '/home/robosub/nuros_ws/src/launch_all', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'SSH_CLIENT': '192.168.2.6 36516 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robosub', 'OLDPWD': '/home/robosub', 'SSH_TTY': '/dev/pts/0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'robosub', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/robosub/nuros_ws/build/launch_all', 'SSH_CONNECTION': '192.168.2.6 36516 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/robosub/nuros_ws/build/launch_all/prefix_override:/home/robosub/nuros_ws/install/launch_all/lib/python3.8/site-packages:'}, 'shell': False}
+[8.058147] (-) TimerEvent: {}
+[8.162845] (-) TimerEvent: {}
+[8.264478] (-) TimerEvent: {}
+[8.365893] (-) TimerEvent: {}
+[8.467291] (-) TimerEvent: {}
+[8.569147] (-) TimerEvent: {}
+[8.670590] (-) TimerEvent: {}
+[8.724646] (key_joy) StdoutLine: {'line': b'running egg_info\n'}
+[8.726540] (key_joy) StdoutLine: {'line': b'writing ../../build/key_joy/key_joy.egg-info/PKG-INFO\n'}
+[8.770818] (-) TimerEvent: {}
+[8.773624] (image_processing) StdoutLine: {'line': b'running egg_info\n'}
+[8.775875] (image_processing) StdoutLine: {'line': b'writing ../../build/image_processing/image_processing.egg-info/PKG-INFO\n'}
+[8.810123] (launch_all) StdoutLine: {'line': b'running egg_info\n'}
+[8.814246] (launch_all) StdoutLine: {'line': b'writing ../../build/launch_all/launch_all.egg-info/PKG-INFO\n'}
+[8.871015] (-) TimerEvent: {}
+[8.872804] (key_joy) StdoutLine: {'line': b'writing dependency_links to ../../build/key_joy/key_joy.egg-info/dependency_links.txt\n'}
+[8.874515] (image_processing) StdoutLine: {'line': b'writing dependency_links to ../../build/image_processing/image_processing.egg-info/dependency_links.txt\n'}
+[8.875096] (key_joy) StdoutLine: {'line': b'writing entry points to ../../build/key_joy/key_joy.egg-info/entry_points.txt\n'}
+[8.875974] (image_processing) StdoutLine: {'line': b'writing entry points to ../../build/image_processing/image_processing.egg-info/entry_points.txt\n'}
+[8.876398] (image_processing) StdoutLine: {'line': b'writing requirements to ../../build/image_processing/image_processing.egg-info/requires.txt\n'}
+[8.876757] (key_joy) StdoutLine: {'line': b'writing requirements to ../../build/key_joy/key_joy.egg-info/requires.txt\n'}
+[8.877246] (image_processing) StdoutLine: {'line': b'writing top-level names to ../../build/image_processing/image_processing.egg-info/top_level.txt\n'}
+[8.877631] (key_joy) StdoutLine: {'line': b'writing top-level names to ../../build/key_joy/key_joy.egg-info/top_level.txt\n'}
+[8.879136] (launch_all) StdoutLine: {'line': b'writing dependency_links to ../../build/launch_all/launch_all.egg-info/dependency_links.txt\n'}
+[8.879844] (launch_all) StdoutLine: {'line': b'writing entry points to ../../build/launch_all/launch_all.egg-info/entry_points.txt\n'}
+[8.880355] (launch_all) StdoutLine: {'line': b'writing requirements to ../../build/launch_all/launch_all.egg-info/requires.txt\n'}
+[8.881028] (launch_all) StdoutLine: {'line': b'writing top-level names to ../../build/launch_all/launch_all.egg-info/top_level.txt\n'}
+[8.971673] (-) TimerEvent: {}
+[9.073345] (-) TimerEvent: {}
+[9.131869] (image_processing) StdoutLine: {'line': b"reading manifest file '../../build/image_processing/image_processing.egg-info/SOURCES.txt'\n"}
+[9.134773] (key_joy) StdoutLine: {'line': b"reading manifest file '../../build/key_joy/key_joy.egg-info/SOURCES.txt'\n"}
+[9.137625] (launch_all) StdoutLine: {'line': b"reading manifest file '../../build/launch_all/launch_all.egg-info/SOURCES.txt'\n"}
+[9.139996] (launch_all) StdoutLine: {'line': b"writing manifest file '../../build/launch_all/launch_all.egg-info/SOURCES.txt'\n"}
+[9.140525] (key_joy) StdoutLine: {'line': b"writing manifest file '../../build/key_joy/key_joy.egg-info/SOURCES.txt'\n"}
+[9.140881] (key_joy) StdoutLine: {'line': b'running build\n'}
+[9.141197] (key_joy) StdoutLine: {'line': b'running build_py\n'}
+[9.141538] (image_processing) StdoutLine: {'line': b"writing manifest file '../../build/image_processing/image_processing.egg-info/SOURCES.txt'\n"}
+[9.141879] (image_processing) StdoutLine: {'line': b'running build\n'}
+[9.142213] (image_processing) StdoutLine: {'line': b'running build_py\n'}
+[9.142534] (launch_all) StdoutLine: {'line': b'running build\n'}
+[9.142885] (launch_all) StdoutLine: {'line': b'running build_py\n'}
+[9.143947] (key_joy) StdoutLine: {'line': b'running install\n'}
+[9.144667] (launch_all) StdoutLine: {'line': b'running install\n'}
+[9.149206] (image_processing) StdoutLine: {'line': b'running install\n'}
+[9.149730] (image_processing) StdoutLine: {'line': b'running install_lib\n'}
+[9.150077] (launch_all) StdoutLine: {'line': b'running install_lib\n'}
+[9.150420] (key_joy) StdoutLine: {'line': b'running install_lib\n'}
+[9.158395] (launch_all) StdoutLine: {'line': b'running install_data\n'}
+[9.162908] (key_joy) StdoutLine: {'line': b'running install_data\n'}
+[9.163846] (launch_all) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.164262] (image_processing) StdoutLine: {'line': b'running install_data\n'}
+[9.168584] (key_joy) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.169167] (launch_all) StdoutLine: {'line': b"removing '/home/robosub/nuros_ws/install/launch_all/lib/python3.8/site-packages/launch_all-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.169922] (launch_all) StdoutLine: {'line': b'Copying ../../build/launch_all/launch_all.egg-info to /home/robosub/nuros_ws/install/launch_all/lib/python3.8/site-packages/launch_all-0.0.0-py3.8.egg-info\n'}
+[9.172890] (key_joy) StdoutLine: {'line': b"removing '/home/robosub/nuros_ws/install/key_joy/lib/python3.8/site-packages/key_joy-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.173411] (-) TimerEvent: {}
+[9.177613] (key_joy) StdoutLine: {'line': b'Copying ../../build/key_joy/key_joy.egg-info to /home/robosub/nuros_ws/install/key_joy/lib/python3.8/site-packages/key_joy-0.0.0-py3.8.egg-info\n'}
+[9.178138] (image_processing) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.178499] (launch_all) StdoutLine: {'line': b'running install_scripts\n'}
+[9.184864] (key_joy) StdoutLine: {'line': b'running install_scripts\n'}
+[9.185436] (image_processing) StdoutLine: {'line': b"removing '/home/robosub/nuros_ws/install/image_processing/lib/python3.8/site-packages/image_processing-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.187906] (image_processing) StdoutLine: {'line': b'Copying ../../build/image_processing/image_processing.egg-info to /home/robosub/nuros_ws/install/image_processing/lib/python3.8/site-packages/image_processing-0.0.0-py3.8.egg-info\n'}
+[9.246336] (key_joy) StdoutLine: {'line': b'Installing joy_twist_node script to /home/robosub/nuros_ws/install/key_joy/lib/key_joy\n'}
+[9.247262] (launch_all) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/nuros_ws/build/launch_all/install.log'\n"}
+[9.273712] (-) TimerEvent: {}
+[9.334016] (launch_all) CommandEnded: {'returncode': 0}
+[9.336415] (image_processing) StdoutLine: {'line': b'running install_scripts\n'}
+[9.342980] (key_joy) StdoutLine: {'line': b'Installing key_joy_node script to /home/robosub/nuros_ws/install/key_joy/lib/key_joy\n'}
+[9.343733] (key_joy) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/nuros_ws/build/key_joy/install.log'\n"}
+[9.392766] (-) TimerEvent: {}
+[9.415736] (image_processing) StdoutLine: {'line': b'Installing cv_imshow_node script to /home/robosub/nuros_ws/install/image_processing/lib/image_processing\n'}
+[9.427131] (launch_all) JobEnded: {'identifier': 'launch_all', 'rc': 0}
+[9.430726] (pixhawk_interface) JobStarted: {'identifier': 'pixhawk_interface'}
+[9.490786] (-) TimerEvent: {}
+[9.509671] (image_processing) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/nuros_ws/build/image_processing/install.log'\n"}
+[9.551906] (key_joy) CommandEnded: {'returncode': 0}
+[9.591074] (-) TimerEvent: {}
+[9.693025] (-) TimerEvent: {}
+[9.751725] (key_joy) JobEnded: {'identifier': 'key_joy', 'rc': 0}
+[9.763525] (yadd) JobStarted: {'identifier': 'yadd'}
+[9.793184] (-) TimerEvent: {}
+[9.894710] (-) TimerEvent: {}
+[10.002228] (-) TimerEvent: {}
+[10.103760] (-) TimerEvent: {}
+[10.204646] (-) TimerEvent: {}
+[10.305563] (-) TimerEvent: {}
+[10.406404] (-) TimerEvent: {}
+[10.507251] (-) TimerEvent: {}
+[10.608295] (-) TimerEvent: {}
+[10.709309] (-) TimerEvent: {}
+[10.810315] (-) TimerEvent: {}
+[10.912592] (image_processing) CommandEnded: {'returncode': 0}
+[10.926889] (-) TimerEvent: {}
+[11.028992] (-) TimerEvent: {}
+[11.071808] (image_processing) JobEnded: {'identifier': 'image_processing', 'rc': 0}
+[11.129776] (-) TimerEvent: {}
+[11.232080] (-) TimerEvent: {}
+[11.332906] (-) TimerEvent: {}
+[11.433751] (-) TimerEvent: {}
+[11.534615] (-) TimerEvent: {}
+[11.635431] (-) TimerEvent: {}
+[11.736312] (-) TimerEvent: {}
+[11.837174] (-) TimerEvent: {}
+[11.938024] (-) TimerEvent: {}
+[12.028496] (main_head) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/main_head', 'build', '--build-base', '/home/robosub/nuros_ws/build/main_head/build', 'install', '--record', '/home/robosub/nuros_ws/build/main_head/install.log', '--install-scripts', '$base/lib/main_head', '--single-version-externally-managed'], 'cwd': '/home/robosub/nuros_ws/src/main_head', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'SSH_CLIENT': '192.168.2.6 36516 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robosub', 'OLDPWD': '/home/robosub', 'SSH_TTY': '/dev/pts/0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'robosub', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/robosub/nuros_ws/build/main_head', 'SSH_CONNECTION': '192.168.2.6 36516 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/robosub/nuros_ws/build/main_head/prefix_override:/home/robosub/nuros_ws/install/main_head/lib/python3.8/site-packages:'}, 'shell': False}
+[12.039171] (-) TimerEvent: {}
+[12.142652] (-) TimerEvent: {}
+[12.244199] (-) TimerEvent: {}
+[12.346101] (-) TimerEvent: {}
+[12.447764] (-) TimerEvent: {}
+[12.549240] (-) TimerEvent: {}
+[12.650809] (-) TimerEvent: {}
+[12.752382] (-) TimerEvent: {}
+[12.810036] (main_head) StdoutLine: {'line': b'running egg_info\n'}
+[12.812289] (main_head) StdoutLine: {'line': b'writing ../../build/main_head/main_head.egg-info/PKG-INFO\n'}
+[12.852531] (-) TimerEvent: {}
+[12.941396] (main_head) StdoutLine: {'line': b'writing dependency_links to ../../build/main_head/main_head.egg-info/dependency_links.txt\n'}
+[12.942476] (main_head) StdoutLine: {'line': b'writing entry points to ../../build/main_head/main_head.egg-info/entry_points.txt\n'}
+[12.943177] (main_head) StdoutLine: {'line': b'writing requirements to ../../build/main_head/main_head.egg-info/requires.txt\n'}
+[12.943858] (main_head) StdoutLine: {'line': b'writing top-level names to ../../build/main_head/main_head.egg-info/top_level.txt\n'}
+[12.952691] (-) TimerEvent: {}
+[13.053602] (-) TimerEvent: {}
+[13.154582] (-) TimerEvent: {}
+[13.229282] (main_head) StdoutLine: {'line': b"reading manifest file '../../build/main_head/main_head.egg-info/SOURCES.txt'\n"}
+[13.233758] (main_head) StdoutLine: {'line': b"writing manifest file '../../build/main_head/main_head.egg-info/SOURCES.txt'\n"}
+[13.234680] (main_head) StdoutLine: {'line': b'running build\n'}
+[13.235215] (main_head) StdoutLine: {'line': b'running build_py\n'}
+[13.237718] (main_head) StdoutLine: {'line': b'running install\n'}
+[13.241707] (main_head) StdoutLine: {'line': b'running install_lib\n'}
+[13.248565] (main_head) StdoutLine: {'line': b'running install_data\n'}
+[13.251928] (main_head) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.254738] (-) TimerEvent: {}
+[13.257622] (main_head) StdoutLine: {'line': b"removing '/home/robosub/nuros_ws/install/main_head/lib/python3.8/site-packages/main_head-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[13.259128] (main_head) StdoutLine: {'line': b'Copying ../../build/main_head/main_head.egg-info to /home/robosub/nuros_ws/install/main_head/lib/python3.8/site-packages/main_head-0.0.0-py3.8.egg-info\n'}
+[13.265705] (main_head) StdoutLine: {'line': b'running install_scripts\n'}
+[13.333808] (main_head) StdoutLine: {'line': b'Installing master_node script to /home/robosub/nuros_ws/install/main_head/lib/main_head\n'}
+[13.354885] (-) TimerEvent: {}
+[13.455773] (-) TimerEvent: {}
+[13.468380] (main_head) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/nuros_ws/build/main_head/install.log'\n"}
+[13.556710] (-) TimerEvent: {}
+[13.570680] (main_head) CommandEnded: {'returncode': 0}
+[13.663755] (-) TimerEvent: {}
+[13.756355] (main_head) JobEnded: {'identifier': 'main_head', 'rc': 0}
+[13.761789] (-) TimerEvent: {}
+[13.862853] (-) TimerEvent: {}
+[13.946076] (pixhawk_interface) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pixhawk_interface', 'build', '--build-base', '/home/robosub/nuros_ws/build/pixhawk_interface/build', 'install', '--record', '/home/robosub/nuros_ws/build/pixhawk_interface/install.log', '--install-scripts', '$base/lib/pixhawk_interface', '--single-version-externally-managed'], 'cwd': '/home/robosub/nuros_ws/src/pixhawk_interface', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'SSH_CLIENT': '192.168.2.6 36516 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robosub', 'OLDPWD': '/home/robosub', 'SSH_TTY': '/dev/pts/0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'robosub', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/robosub/nuros_ws/build/pixhawk_interface', 'SSH_CONNECTION': '192.168.2.6 36516 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/robosub/nuros_ws/build/pixhawk_interface/prefix_override:/home/robosub/nuros_ws/install/pixhawk_interface/lib/python3.8/site-packages:'}, 'shell': False}
+[13.963358] (-) TimerEvent: {}
+[14.065046] (-) TimerEvent: {}
+[14.165942] (-) TimerEvent: {}
+[14.210657] (yadd) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/yadd', 'build', '--build-base', '/home/robosub/nuros_ws/build/yadd/build', 'install', '--record', '/home/robosub/nuros_ws/build/yadd/install.log', '--install-scripts', '$base/lib/yadd', '--single-version-externally-managed'], 'cwd': '/home/robosub/nuros_ws/src/yadd', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'SSH_CLIENT': '192.168.2.6 36516 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robosub', 'OLDPWD': '/home/robosub', 'SSH_TTY': '/dev/pts/0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LOGNAME': 'robosub', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/robosub/nuros_ws/build/yadd', 'SSH_CONNECTION': '192.168.2.6 36516 192.168.2.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/robosub/nuros_ws/build/yadd/prefix_override:/home/robosub/nuros_ws/install/yadd/lib/python3.8/site-packages:'}, 'shell': False}
+[14.266310] (-) TimerEvent: {}
+[14.368431] (-) TimerEvent: {}
+[14.469899] (-) TimerEvent: {}
+[14.570722] (-) TimerEvent: {}
+[14.672173] (-) TimerEvent: {}
+[14.702053] (pixhawk_interface) StdoutLine: {'line': b'running egg_info\n'}
+[14.703938] (pixhawk_interface) StdoutLine: {'line': b'writing ../../build/pixhawk_interface/pixhawk_interface.egg-info/PKG-INFO\n'}
+[14.772391] (-) TimerEvent: {}
+[14.845124] (pixhawk_interface) StdoutLine: {'line': b'writing dependency_links to ../../build/pixhawk_interface/pixhawk_interface.egg-info/dependency_links.txt\n'}
+[14.846324] (pixhawk_interface) StdoutLine: {'line': b'writing entry points to ../../build/pixhawk_interface/pixhawk_interface.egg-info/entry_points.txt\n'}
+[14.847124] (pixhawk_interface) StdoutLine: {'line': b'writing requirements to ../../build/pixhawk_interface/pixhawk_interface.egg-info/requires.txt\n'}
+[14.847951] (pixhawk_interface) StdoutLine: {'line': b'writing top-level names to ../../build/pixhawk_interface/pixhawk_interface.egg-info/top_level.txt\n'}
+[14.872582] (-) TimerEvent: {}
+[14.964519] (yadd) StdoutLine: {'line': b'running egg_info\n'}
+[14.966538] (yadd) StdoutLine: {'line': b'writing ../../build/yadd/yadd.egg-info/PKG-INFO\n'}
+[14.972712] (-) TimerEvent: {}
+[15.073436] (-) TimerEvent: {}
+[15.105511] (yadd) StdoutLine: {'line': b'writing dependency_links to ../../build/yadd/yadd.egg-info/dependency_links.txt\n'}
+[15.106439] (yadd) StdoutLine: {'line': b'writing entry points to ../../build/yadd/yadd.egg-info/entry_points.txt\n'}
+[15.107292] (yadd) StdoutLine: {'line': b'writing requirements to ../../build/yadd/yadd.egg-info/requires.txt\n'}
+[15.108139] (yadd) StdoutLine: {'line': b'writing top-level names to ../../build/yadd/yadd.egg-info/top_level.txt\n'}
+[15.108978] (pixhawk_interface) StdoutLine: {'line': b"reading manifest file '../../build/pixhawk_interface/pixhawk_interface.egg-info/SOURCES.txt'\n"}
+[15.115344] (pixhawk_interface) StdoutLine: {'line': b"writing manifest file '../../build/pixhawk_interface/pixhawk_interface.egg-info/SOURCES.txt'\n"}
+[15.116155] (pixhawk_interface) StdoutLine: {'line': b'running build\n'}
+[15.116683] (pixhawk_interface) StdoutLine: {'line': b'running build_py\n'}
+[15.119418] (pixhawk_interface) StdoutLine: {'line': b'running install\n'}
+[15.122387] (pixhawk_interface) StdoutLine: {'line': b'running install_lib\n'}
+[15.129891] (pixhawk_interface) StdoutLine: {'line': b'running install_data\n'}
+[15.132939] (pixhawk_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.138521] (pixhawk_interface) StdoutLine: {'line': b"removing '/home/robosub/nuros_ws/install/pixhawk_interface/lib/python3.8/site-packages/pixhawk_interface-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.140086] (pixhawk_interface) StdoutLine: {'line': b'Copying ../../build/pixhawk_interface/pixhawk_interface.egg-info to /home/robosub/nuros_ws/install/pixhawk_interface/lib/python3.8/site-packages/pixhawk_interface-0.0.0-py3.8.egg-info\n'}
+[15.145264] (pixhawk_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[15.173631] (-) TimerEvent: {}
+[15.205750] (pixhawk_interface) StdoutLine: {'line': b'Installing interface_node script to /home/robosub/nuros_ws/install/pixhawk_interface/lib/pixhawk_interface\n'}
+[15.273799] (-) TimerEvent: {}
+[15.345490] (pixhawk_interface) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/nuros_ws/build/pixhawk_interface/install.log'\n"}
+[15.347237] (yadd) StdoutLine: {'line': b"reading manifest file '../../build/yadd/yadd.egg-info/SOURCES.txt'\n"}
+[15.351887] (yadd) StdoutLine: {'line': b"writing manifest file '../../build/yadd/yadd.egg-info/SOURCES.txt'\n"}
+[15.352710] (yadd) StdoutLine: {'line': b'running build\n'}
+[15.353332] (yadd) StdoutLine: {'line': b'running build_py\n'}
+[15.357546] (yadd) StdoutLine: {'line': b'running install\n'}
+[15.360715] (yadd) StdoutLine: {'line': b'running install_lib\n'}
+[15.369866] (yadd) StdoutLine: {'line': b'running install_data\n'}
+[15.373557] (yadd) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.374093] (-) TimerEvent: {}
+[15.379767] (yadd) StdoutLine: {'line': b"removing '/home/robosub/nuros_ws/install/yadd/lib/python3.8/site-packages/yadd-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.381290] (yadd) StdoutLine: {'line': b'Copying ../../build/yadd/yadd.egg-info to /home/robosub/nuros_ws/install/yadd/lib/python3.8/site-packages/yadd-0.0.0-py3.8.egg-info\n'}
+[15.386540] (yadd) StdoutLine: {'line': b'running install_scripts\n'}
+[15.433279] (pixhawk_interface) CommandEnded: {'returncode': 0}
+[15.451750] (yadd) StdoutLine: {'line': b'Installing dvl_driver script to /home/robosub/nuros_ws/install/yadd/lib/yadd\n'}
+[15.474233] (-) TimerEvent: {}
+[15.574911] (-) TimerEvent: {}
+[15.585277] (yadd) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/nuros_ws/build/yadd/install.log'\n"}
+[15.619033] (pixhawk_interface) JobEnded: {'identifier': 'pixhawk_interface', 'rc': 0}
+[15.670640] (yadd) CommandEnded: {'returncode': 0}
+[15.682354] (-) TimerEvent: {}
+[15.783409] (-) TimerEvent: {}
+[15.852331] (yadd) JobEnded: {'identifier': 'yadd', 'rc': 0}
+[15.856262] (-) EventReactorShutdown: {}

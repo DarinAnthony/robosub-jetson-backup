@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/Attitude.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " This is a message to hold data of robot's attitude in right-handed FRD body frame." "\n"
+      "" "\n"
+      " Roll, pitch, yaw should be in rad." "\n"
+      " Rotating speed should be in rad/s.")
+    struct Attitude {
+      @verbatim (language="comment", text=
+        "std_msgs/Header header")
+      double roll;
+
+      double pitch;
+
+      double yaw;
+
+      double rollspeed;
+
+      double pitchspeed;
+
+      double yawspeed;
+    };
+  };
+};

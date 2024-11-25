@@ -1,0 +1,465 @@
+[1.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.187s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffab9e8e50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffab9e8e50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffab9f4400>)
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.336s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robosub/nuros_ws'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['ignore', 'ignore_ament_install']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ignore'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ignore_ament_install'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['colcon_pkg']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'colcon_pkg'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['colcon_meta']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'colcon_meta'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['ros']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ros'
+[1.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_processing' with type 'ros.ament_python' and name 'image_processing'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[1.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[1.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extensions ['ignore', 'ignore_ament_install']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extension 'ignore'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extension 'ignore_ament_install'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extensions ['colcon_pkg']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extension 'colcon_pkg'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extensions ['colcon_meta']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extension 'colcon_meta'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extensions ['ros']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/key_joy) by extension 'ros'
+[1.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/key_joy' with type 'ros.ament_python' and name 'key_joy'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extensions ['ignore', 'ignore_ament_install']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extension 'ignore'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extension 'ignore_ament_install'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extensions ['colcon_pkg']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extension 'colcon_pkg'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extensions ['colcon_meta']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extension 'colcon_meta'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extensions ['ros']
+[1.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_all) by extension 'ros'
+[1.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_all' with type 'ros.ament_python' and name 'launch_all'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extensions ['ignore', 'ignore_ament_install']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extension 'ignore_ament_install'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extensions ['colcon_pkg']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extension 'colcon_pkg'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extensions ['colcon_meta']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extension 'colcon_meta'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extensions ['ros']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_head) by extension 'ros'
+[1.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_head' with type 'ros.ament_python' and name 'main_head'
+[1.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extension 'ignore'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extension 'ignore_ament_install'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extensions ['colcon_pkg']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extension 'colcon_pkg'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extensions ['colcon_meta']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extension 'colcon_meta'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extensions ['ros']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/pixhawk_interface) by extension 'ros'
+[1.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pixhawk_interface' with type 'ros.ament_python' and name 'pixhawk_interface'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extensions ['ignore', 'ignore_ament_install']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extension 'ignore'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extension 'ignore_ament_install'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extensions ['colcon_pkg']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extension 'colcon_pkg'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extensions ['colcon_meta']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extension 'colcon_meta'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extensions ['ros']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/yadd) by extension 'ros'
+[1.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yadd' with type 'ros.ament_python' and name 'yadd'
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_first' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_force_configure' from command line to 'False'
+[1.597s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'ament_cmake_args' from command line to 'None'
+[1.597s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[1.597s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.597s] DEBUG:colcon.colcon_core.verb:Building package 'image_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/nuros_ws/build/image_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/nuros_ws/install/image_processing', 'merge_install': False, 'path': '/home/robosub/nuros_ws/src/image_processing', 'symlink_install': False, 'test_result_base': None}
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.602s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/nuros_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/nuros_ws/install/interfaces', 'merge_install': False, 'path': '/home/robosub/nuros_ws/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'cmake_args' from command line to 'None'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'cmake_target' from command line to 'None'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'cmake_clean_first' from command line to 'False'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'cmake_force_configure' from command line to 'False'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'ament_cmake_args' from command line to 'None'
+[1.608s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.608s] Level 5:colcon.colcon_core.verb:set package 'key_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.608s] DEBUG:colcon.colcon_core.verb:Building package 'key_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/nuros_ws/build/key_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/nuros_ws/install/key_joy', 'merge_install': False, 'path': '/home/robosub/nuros_ws/src/key_joy', 'symlink_install': False, 'test_result_base': None}
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'cmake_target' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'cmake_clean_cache' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'cmake_clean_first' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'cmake_force_configure' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'ament_cmake_args' from command line to 'None'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'catkin_cmake_args' from command line to 'None'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'launch_all' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.614s] DEBUG:colcon.colcon_core.verb:Building package 'launch_all' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/nuros_ws/build/launch_all', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/nuros_ws/install/launch_all', 'merge_install': False, 'path': '/home/robosub/nuros_ws/src/launch_all', 'symlink_install': False, 'test_result_base': None}
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'cmake_args' from command line to 'None'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'cmake_target' from command line to 'None'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'cmake_clean_cache' from command line to 'False'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'cmake_clean_first' from command line to 'False'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'cmake_force_configure' from command line to 'False'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'ament_cmake_args' from command line to 'None'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'catkin_cmake_args' from command line to 'None'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'main_head' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.620s] DEBUG:colcon.colcon_core.verb:Building package 'main_head' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/nuros_ws/build/main_head', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/nuros_ws/install/main_head', 'merge_install': False, 'path': '/home/robosub/nuros_ws/src/main_head', 'symlink_install': False, 'test_result_base': None}
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'cmake_args' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'cmake_target' from command line to 'None'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.624s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'pixhawk_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.625s] DEBUG:colcon.colcon_core.verb:Building package 'pixhawk_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/nuros_ws/build/pixhawk_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/nuros_ws/install/pixhawk_interface', 'merge_install': False, 'path': '/home/robosub/nuros_ws/src/pixhawk_interface', 'symlink_install': False, 'test_result_base': None}
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'cmake_args' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'cmake_target' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'cmake_clean_cache' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'cmake_clean_first' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'cmake_force_configure' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'ament_cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'catkin_cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'yadd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.630s] DEBUG:colcon.colcon_core.verb:Building package 'yadd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/nuros_ws/build/yadd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/nuros_ws/install/yadd', 'merge_install': False, 'path': '/home/robosub/nuros_ws/src/yadd', 'symlink_install': False, 'test_result_base': None}
+[1.633s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.649s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/nuros_ws/src/image_processing' with build type 'ament_python'
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'ament_prefix_path')
+[1.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/image_processing/share/image_processing/hook/ament_prefix_path.ps1'
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/image_processing/share/image_processing/hook/ament_prefix_path.dsv'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/image_processing/share/image_processing/hook/ament_prefix_path.sh'
+[1.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.745s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robosub/nuros_ws/src/interfaces' with build type 'ament_cmake'
+[1.750s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robosub/nuros_ws/src/interfaces'
+[1.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.780s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/nuros_ws/src/key_joy' with build type 'ament_python'
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_joy', 'ament_prefix_path')
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/key_joy/share/key_joy/hook/ament_prefix_path.ps1'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/key_joy/share/key_joy/hook/ament_prefix_path.dsv'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/key_joy/share/key_joy/hook/ament_prefix_path.sh'
+[1.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.828s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/nuros_ws/src/launch_all' with build type 'ament_python'
+[1.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_all', 'ament_prefix_path')
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/launch_all/share/launch_all/hook/ament_prefix_path.ps1'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/launch_all/share/launch_all/hook/ament_prefix_path.dsv'
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/launch_all/share/launch_all/hook/ament_prefix_path.sh'
+[1.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.764s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/nuros_ws/src/image_processing'
+[2.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/nuros_ws/build/interfaces': /usr/bin/cmake --build /home/robosub/nuros_ws/build/interfaces -- -j4 -l4
+[4.294s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/nuros_ws/src/key_joy'
+[4.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.161s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/nuros_ws/src/launch_all'
+[6.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/nuros_ws/build/interfaces' returned '0': /usr/bin/cmake --build /home/robosub/nuros_ws/build/interfaces -- -j4 -l4
+[7.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/nuros_ws/build/interfaces': /usr/bin/cmake --install /home/robosub/nuros_ws/build/interfaces
+[8.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[8.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/nuros_ws/build/interfaces' returned '0': /usr/bin/cmake --install /home/robosub/nuros_ws/build/interfaces
+[8.123s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces' for CMake module files
+[8.139s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces' for CMake config files
+[8.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[8.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[8.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[8.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[8.169s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/lib'
+[8.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[8.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[8.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[8.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[8.206s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/bin'
+[8.207s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[8.208s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages'
+[8.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[8.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[8.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[8.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[8.235s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/bin'
+[8.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.ps1'
+[8.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.dsv'
+[8.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.sh'
+[8.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.bash'
+[8.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.zsh'
+[8.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/nuros_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[9.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[9.104s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces' for CMake module files
+[9.107s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces' for CMake config files
+[9.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[9.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[9.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[9.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[9.123s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/lib'
+[9.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[9.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[9.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[9.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[9.133s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/bin'
+[9.134s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[9.135s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/lib/python3.8/site-packages'
+[9.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[9.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[9.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[9.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[9.147s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/interfaces/bin'
+[9.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.ps1'
+[9.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.dsv'
+[9.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.sh'
+[9.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.bash'
+[9.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/interfaces/share/interfaces/package.zsh'
+[9.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/nuros_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[9.169s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/nuros_ws/src/main_head' with build type 'ament_python'
+[9.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_head', 'ament_prefix_path')
+[9.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/main_head/share/main_head/hook/ament_prefix_path.ps1'
+[9.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/main_head/share/main_head/hook/ament_prefix_path.dsv'
+[9.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/main_head/share/main_head/hook/ament_prefix_path.sh'
+[9.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/nuros_ws/src/image_processing': PYTHONPATH=/home/robosub/nuros_ws/build/image_processing/prefix_override:/home/robosub/nuros_ws/install/image_processing/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_processing build --build-base /home/robosub/nuros_ws/build/image_processing/build install --record /home/robosub/nuros_ws/build/image_processing/install.log --install-scripts $base/lib/image_processing --single-version-externally-managed
+[10.260s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/nuros_ws/src/main_head'
+[10.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/nuros_ws/src/launch_all': PYTHONPATH=/home/robosub/nuros_ws/build/launch_all/prefix_override:/home/robosub/nuros_ws/install/launch_all/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_all build --build-base /home/robosub/nuros_ws/build/launch_all/build install --record /home/robosub/nuros_ws/build/launch_all/install.log --install-scripts $base/lib/launch_all --single-version-externally-managed
+[10.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/nuros_ws/src/key_joy': PYTHONPATH=/home/robosub/nuros_ws/build/key_joy/prefix_override:/home/robosub/nuros_ws/install/key_joy/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/key_joy build --build-base /home/robosub/nuros_ws/build/key_joy/build install --record /home/robosub/nuros_ws/build/key_joy/install.log --install-scripts $base/lib/key_joy --single-version-externally-managed
+[10.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/nuros_ws/src/image_processing' returned '0': PYTHONPATH=/home/robosub/nuros_ws/build/image_processing/prefix_override:/home/robosub/nuros_ws/install/image_processing/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/image_processing build --build-base /home/robosub/nuros_ws/build/image_processing/build install --record /home/robosub/nuros_ws/build/image_processing/install.log --install-scripts $base/lib/image_processing --single-version-externally-managed
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/image_processing' for CMake module files
+[10.911s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/image_processing' for CMake config files
+[10.920s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/image_processing/lib'
+[10.921s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/image_processing/bin'
+[10.921s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/image_processing/lib/pkgconfig/image_processing.pc'
+[10.922s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/image_processing/lib/python3.8/site-packages'
+[10.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'pythonpath')
+[10.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/image_processing/share/image_processing/hook/pythonpath.ps1'
+[10.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/image_processing/share/image_processing/hook/pythonpath.dsv'
+[10.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/image_processing/share/image_processing/hook/pythonpath.sh'
+[10.966s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/image_processing/bin'
+[10.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_processing)
+[10.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/image_processing/share/image_processing/package.ps1'
+[10.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/nuros_ws/install/image_processing/share/image_processing/package.dsv'
+[11.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/image_processing/share/image_processing/package.sh'
+[11.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/image_processing/share/image_processing/package.bash'
+[11.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/image_processing/share/image_processing/package.zsh'
+[11.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/nuros_ws/install/image_processing/share/colcon-core/packages/image_processing)
+[11.114s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/nuros_ws/src/pixhawk_interface' with build type 'ament_python'
+[11.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixhawk_interface', 'ament_prefix_path')
+[11.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/hook/ament_prefix_path.ps1'
+[11.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/hook/ament_prefix_path.dsv'
+[11.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/hook/ament_prefix_path.sh'
+[11.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.476s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/nuros_ws/src/pixhawk_interface'
+[12.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.627s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/launch_all' for CMake module files
+[12.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/nuros_ws/src/launch_all' returned '0': PYTHONPATH=/home/robosub/nuros_ws/build/launch_all/prefix_override:/home/robosub/nuros_ws/install/launch_all/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_all build --build-base /home/robosub/nuros_ws/build/launch_all/build install --record /home/robosub/nuros_ws/build/launch_all/install.log --install-scripts $base/lib/launch_all --single-version-externally-managed
+[12.656s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/launch_all' for CMake config files
+[12.659s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/launch_all/lib'
+[12.660s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/launch_all/bin'
+[12.660s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/launch_all/lib/pkgconfig/launch_all.pc'
+[12.661s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/launch_all/lib/python3.8/site-packages'
+[12.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_all', 'pythonpath')
+[12.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/launch_all/share/launch_all/hook/pythonpath.ps1'
+[12.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/launch_all/share/launch_all/hook/pythonpath.dsv'
+[12.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/launch_all/share/launch_all/hook/pythonpath.sh'
+[12.750s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/launch_all/bin'
+[12.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_all)
+[12.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/launch_all/share/launch_all/package.ps1'
+[12.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/nuros_ws/install/launch_all/share/launch_all/package.dsv'
+[12.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/launch_all/share/launch_all/package.sh'
+[12.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/launch_all/share/launch_all/package.bash'
+[12.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/launch_all/share/launch_all/package.zsh'
+[12.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/nuros_ws/install/launch_all/share/colcon-core/packages/launch_all)
+[12.846s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/nuros_ws/src/yadd' with build type 'ament_python'
+[12.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('yadd', 'ament_prefix_path')
+[12.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/yadd/share/yadd/hook/ament_prefix_path.ps1'
+[12.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/yadd/share/yadd/hook/ament_prefix_path.dsv'
+[12.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/yadd/share/yadd/hook/ament_prefix_path.sh'
+[12.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/nuros_ws/src/main_head': PYTHONPATH=/home/robosub/nuros_ws/build/main_head/prefix_override:/home/robosub/nuros_ws/install/main_head/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_head build --build-base /home/robosub/nuros_ws/build/main_head/build install --record /home/robosub/nuros_ws/build/main_head/install.log --install-scripts $base/lib/main_head --single-version-externally-managed
+[14.458s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/nuros_ws/src/yadd'
+[14.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/nuros_ws/src/key_joy' returned '0': PYTHONPATH=/home/robosub/nuros_ws/build/key_joy/prefix_override:/home/robosub/nuros_ws/install/key_joy/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/key_joy build --build-base /home/robosub/nuros_ws/build/key_joy/build install --record /home/robosub/nuros_ws/build/key_joy/install.log --install-scripts $base/lib/key_joy --single-version-externally-managed
+[14.601s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/key_joy' for CMake module files
+[14.614s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/key_joy' for CMake config files
+[14.618s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/key_joy/lib'
+[14.618s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/key_joy/bin'
+[14.618s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/key_joy/lib/pkgconfig/key_joy.pc'
+[14.620s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/key_joy/lib/python3.8/site-packages'
+[14.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('key_joy', 'pythonpath')
+[14.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/key_joy/share/key_joy/hook/pythonpath.ps1'
+[14.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/key_joy/share/key_joy/hook/pythonpath.dsv'
+[14.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/key_joy/share/key_joy/hook/pythonpath.sh'
+[14.689s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/key_joy/bin'
+[14.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(key_joy)
+[14.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/key_joy/share/key_joy/package.ps1'
+[14.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/nuros_ws/install/key_joy/share/key_joy/package.dsv'
+[14.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/key_joy/share/key_joy/package.sh'
+[14.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/key_joy/share/key_joy/package.bash'
+[14.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/key_joy/share/key_joy/package.zsh'
+[14.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/nuros_ws/install/key_joy/share/colcon-core/packages/key_joy)
+[15.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/nuros_ws/src/main_head' returned '0': PYTHONPATH=/home/robosub/nuros_ws/build/main_head/prefix_override:/home/robosub/nuros_ws/install/main_head/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_head build --build-base /home/robosub/nuros_ws/build/main_head/build install --record /home/robosub/nuros_ws/build/main_head/install.log --install-scripts $base/lib/main_head --single-version-externally-managed
+[15.175s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/main_head' for CMake module files
+[15.177s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/main_head' for CMake config files
+[15.181s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/main_head/lib'
+[15.181s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/main_head/bin'
+[15.182s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/main_head/lib/pkgconfig/main_head.pc'
+[15.188s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/main_head/lib/python3.8/site-packages'
+[15.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_head', 'pythonpath')
+[15.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/main_head/share/main_head/hook/pythonpath.ps1'
+[15.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/main_head/share/main_head/hook/pythonpath.dsv'
+[15.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/main_head/share/main_head/hook/pythonpath.sh'
+[15.224s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/main_head/bin'
+[15.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_head)
+[15.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/main_head/share/main_head/package.ps1'
+[15.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/nuros_ws/install/main_head/share/main_head/package.dsv'
+[15.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/main_head/share/main_head/package.sh'
+[15.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/main_head/share/main_head/package.bash'
+[15.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/main_head/share/main_head/package.zsh'
+[15.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/nuros_ws/install/main_head/share/colcon-core/packages/main_head)
+[15.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/nuros_ws/src/pixhawk_interface': PYTHONPATH=/home/robosub/nuros_ws/build/pixhawk_interface/prefix_override:/home/robosub/nuros_ws/install/pixhawk_interface/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/pixhawk_interface build --build-base /home/robosub/nuros_ws/build/pixhawk_interface/build install --record /home/robosub/nuros_ws/build/pixhawk_interface/install.log --install-scripts $base/lib/pixhawk_interface --single-version-externally-managed
+[16.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/nuros_ws/src/yadd': PYTHONPATH=/home/robosub/nuros_ws/build/yadd/prefix_override:/home/robosub/nuros_ws/install/yadd/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/yadd build --build-base /home/robosub/nuros_ws/build/yadd/build install --record /home/robosub/nuros_ws/build/yadd/install.log --install-scripts $base/lib/yadd --single-version-externally-managed
+[17.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/nuros_ws/src/pixhawk_interface' returned '0': PYTHONPATH=/home/robosub/nuros_ws/build/pixhawk_interface/prefix_override:/home/robosub/nuros_ws/install/pixhawk_interface/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/pixhawk_interface build --build-base /home/robosub/nuros_ws/build/pixhawk_interface/build install --record /home/robosub/nuros_ws/build/pixhawk_interface/install.log --install-scripts $base/lib/pixhawk_interface --single-version-externally-managed
+[17.168s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/pixhawk_interface' for CMake module files
+[17.171s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/pixhawk_interface' for CMake config files
+[17.176s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/pixhawk_interface/lib'
+[17.177s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/pixhawk_interface/bin'
+[17.177s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/pixhawk_interface/lib/pkgconfig/pixhawk_interface.pc'
+[17.178s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/pixhawk_interface/lib/python3.8/site-packages'
+[17.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('pixhawk_interface', 'pythonpath')
+[17.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/hook/pythonpath.ps1'
+[17.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/hook/pythonpath.dsv'
+[17.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/hook/pythonpath.sh'
+[17.193s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/pixhawk_interface/bin'
+[17.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pixhawk_interface)
+[17.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/package.ps1'
+[17.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/package.dsv'
+[17.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/package.sh'
+[17.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/package.bash'
+[17.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/pixhawk_interface/share/pixhawk_interface/package.zsh'
+[17.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/nuros_ws/install/pixhawk_interface/share/colcon-core/packages/pixhawk_interface)
+[17.893s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/yadd' for CMake module files
+[17.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/nuros_ws/src/yadd' returned '0': PYTHONPATH=/home/robosub/nuros_ws/build/yadd/prefix_override:/home/robosub/nuros_ws/install/yadd/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/yadd build --build-base /home/robosub/nuros_ws/build/yadd/build install --record /home/robosub/nuros_ws/build/yadd/install.log --install-scripts $base/lib/yadd --single-version-externally-managed
+[17.897s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/yadd' for CMake config files
+[17.900s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/yadd/lib'
+[17.900s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/yadd/bin'
+[17.900s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/yadd/lib/pkgconfig/yadd.pc'
+[17.901s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/yadd/lib/python3.8/site-packages'
+[17.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('yadd', 'pythonpath')
+[17.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/yadd/share/yadd/hook/pythonpath.ps1'
+[17.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/nuros_ws/install/yadd/share/yadd/hook/pythonpath.dsv'
+[17.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/nuros_ws/install/yadd/share/yadd/hook/pythonpath.sh'
+[17.912s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/nuros_ws/install/yadd/bin'
+[17.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yadd)
+[17.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/yadd/share/yadd/package.ps1'
+[17.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/nuros_ws/install/yadd/share/yadd/package.dsv'
+[17.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/yadd/share/yadd/package.sh'
+[17.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/yadd/share/yadd/package.bash'
+[17.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/nuros_ws/install/yadd/share/yadd/package.zsh'
+[17.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/nuros_ws/install/yadd/share/colcon-core/packages/yadd)
+[17.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.930s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.932s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.932s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.963s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.963s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.964s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.013s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[18.014s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.022s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/nuros_ws/install/local_setup.ps1'
+[18.025s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robosub/nuros_ws/install/_local_setup_util_ps1.py'
+[18.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/nuros_ws/install/setup.ps1'
+[18.046s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/nuros_ws/install/local_setup.sh'
+[18.048s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robosub/nuros_ws/install/_local_setup_util_sh.py'
+[18.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/nuros_ws/install/setup.sh'
+[18.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/nuros_ws/install/local_setup.bash'
+[18.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/nuros_ws/install/setup.bash'
+[18.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/nuros_ws/install/local_setup.zsh'
+[18.062s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/nuros_ws/install/setup.zsh'
